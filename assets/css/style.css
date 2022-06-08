@@ -142,7 +142,7 @@ header form button{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 2s;
+    transition: all 3.5s;
 }
 #webD{
     width: 0%;
@@ -150,7 +150,7 @@ header form button{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 2s;
+    transition: all 3s;
 }
 /*fin de section about*/
 .parallax2 {

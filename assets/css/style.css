@@ -213,8 +213,128 @@ header form button{
  margin-bottom: 2rem;
  border: none;
 }
+#contact{
+    color: gray;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+}
+.parallax3 {
+    background-image: url("../img/parallax3.jpg"); 
+    height: 55vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+  }
+.milieu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
 
+#mapPetite{
+    width:20%
+}
+#mapPetite img{
+    width: 100%;
+}
+.italic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    margin: 2rem;
+}
+.italic p{
+    font-style: italic;
+    margin-top: 1.5rem;
+}
+.direction{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.flex h3{
+    margin: .2rem 0;
+}
+.flex i{
+    margin-right: 1rem;
+}
+.flex p{
+    margin: 1.5rem 0;
+}
+.flex p>i{
+    margin: 0;
+}
+#contact input{
+   
+    height: 3vh;
+}
+.largeur{
+    margin-left:2rem ;
+    width: 40%;
+}
+.largeur input{
+    width: 98%;
+    margin:0 auto;
+    margin-bottom: 1rem;
+}
+.flexD{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.FlexR{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.FlexR input{
+    width: 48%;
+    margin: .5rem auto;
+}
+.flexD button{
+    color: white;
+    background-color: black;
+    width: 30%;
+    padding: .6rem;
+}
+/*footer*/
+footer{
+    color: white;
+    background-color: gray;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+footer a{
+    padding: 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: gray;
+     scroll-behavior: smooth
+}
 
+footer i{
+    margin: 0.6rem 0.4rem;
+}
 
 
 /*fin du foad*/
